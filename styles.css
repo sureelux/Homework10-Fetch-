@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: pink;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-section, .post-section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.user-list {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;;
+}
+
+.user-list li {
+    margin-bottom: 30px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.user-list li:hover {
+    transform: scale(1.35);
+    background-color: blue;
+    color: white;
+
+}
+
+.post-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 3px dotted blue;
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: dotted;
+}
+
+.post-info {
+    /* padding: 20px; */
+    margin: 25px;
+}
+.textname{
+    background: orchid;
+    color: white;
+    text-align: center;
+}
